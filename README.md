@@ -37,10 +37,10 @@ Run npm start at your terminal and open the browser.
 ```
 
 ## Images
-![Image](https://github.com/Eli-33/BURGER/blob/main/screenshots/screenshot1.PNG)
+(https://github.com/Eli-33/BURGER/blob/main/screenshots/screenshot1.PNG)
 
 ## Deployed-at-Heroku
-![Deployed at Heroku](https://blooming-anchorage-83482.herokuapp.com/)
+[Deployed at Heroku](https://blooming-anchorage-83482.herokuapp.com/)
 
 ## license
 [![License](https://img.shields.io/badge/License-MIT-<Blue>.svg)](https://shields.io/)
