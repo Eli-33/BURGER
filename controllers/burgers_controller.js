@@ -16,25 +16,13 @@ router.get("/", function(req, res) {
 // Create a New Burger
 router.post("/burger/create", function(req, res) {
   burger.insertOne( req.body.burger_name,function(result) {
-    res.json({ id: result.insertId });
-  });
+    res.redirect('/');
+    });
 });
 // Devour a Burger
 router.post('/burger/eat/:id', function (req, res) {
   burger.updateOne(req.params.id, function() {
-    res.redirect('/index');
-  });
-});
-
-router.delete("/api/burgers/:id", (req, res) => {
-  const condition = "id =" + req.params.id;
-
-  burger.delete(condition, (result) => {
-    if (result.affectedRows == 0) {
-      return res.status(404).end();
-    } else {
-      res.status(200).end();
-    }
+    res.redirect('/');
   });
 });
 // Export routes for server.js to use.
