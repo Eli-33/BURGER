@@ -10,7 +10,7 @@ It is hosted to HEROKU and connected with JAWSDB as a cloud DB.
   * [Installation](#installation)
   * [Usage](#usage)
   * [Images](#images)
-  * [Demonstration](#Demonstration)
+  * [DeployedatHeroku](#Deployed-at-Heroku)
   * [License](#license)
   * [Contact](#Contact)
 
@@ -37,12 +37,10 @@ Run npm start at your terminal and open the browser.
 ```
 
 ## Images
-![Image]()
-![Image]()
+![Image](https://github.com/Eli-33/BURGER/blob/main/screenshots/screenshot1.PNG)
 
-## Demonstration
-
-* ![DEployed at Heroku](https://blooming-anchorage-83482.herokuapp.com/)
+## Deployed-at-Heroku
+![Deployed at Heroku](https://blooming-anchorage-83482.herokuapp.com/)
 
 ## license
 [![License](https://img.shields.io/badge/License-MIT-<Blue>.svg)](https://shields.io/)
